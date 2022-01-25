@@ -1,0 +1,37 @@
+# ignore everything
+*
+
+# but not these files
+!.gitignore
+!*.ipynb
+!*.py
+!README.md
+!JupyterImages
+!JupyterImages/*
+
+### # ignore those files in subdirectories
+### **/*.gitignore
+### **/*.ipynb
+### **/*.py
+### **/README.md
+### **/JupyterImages
+### **/JupyterImages/*
+
+# !links
+# !JupyterHome
+# !JupyterHome/*.ipynb
+# !JupyterImages
+# !JupyterImages/*
+# !Analysis
+# !Analysis/*
+# !Analysis/JupyterImages
+# !Analysis/JupyterImages/*
+# !Analysis/Lm_W by pixel
+# !Analysis/Lm_W by pixel/Valeo.ipynb
+# !Vf
+# !Vf/Niko
+# !Vf/Niko/PyLib
+# !Vf/Niko/PyLib/NikoSerial.ipynb
+
+### # track files in the subdirectories: special treatment of these names:
+### !Vf
